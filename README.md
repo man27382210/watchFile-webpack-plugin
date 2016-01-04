@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/man27382210/watchFile-webpack-plugin.svg?branch=master)](https://travis-ci.org/man27382210/watchFile-webpack-plugin)
 # watchFile-webpack-plugin
  * Watch file no under webpack.
  * We use ajs and rt file to build react, but webpack dev server didn't watch .rt file, so finally we wirte for watching specify folder and extension.
