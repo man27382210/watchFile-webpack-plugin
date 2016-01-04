@@ -22,7 +22,7 @@ module.exports = {
         }]
     },
     plugins: [
-        new watchFilePlugin({watchFolder: "/test/fixtures/components/", watchExtension: "rt"})
+        new watchFilePlugin({watchFolder: path.join(__dirname ,"/fixtures/components/"), watchExtension: "rt"})
     ],
     externals: {
 

@@ -4,7 +4,7 @@
 
 useage
 ```
-watchFilePlugin = require("watchFile-webpack-plugin");
+watchFilePlugin = require("watchfile-webpack-plugin");
 ...
 plugins: [
         new watchFilePlugin({watchFolder: "/src/components/", watchExtension: "rt"})
