@@ -13,4 +13,6 @@ plugins: [
 ```
 
  * Which watchFolder is the folder you put the special file, and watchExtension is the extension file you look.
- * About ajs, please see [node-async-require-loader](https://github.com/jaydenlin/node-async-require-loader)!
+ * About ajs, please see 
+        * [node-async-require-loader](https://github.com/jaydenlin/node-async-require-loader)
+        * [node-async-require](https://github.com/jaydenlin/node-async-require)
