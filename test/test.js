@@ -9,6 +9,7 @@ var fetch            = require('node-fetch');
 
 
 describe('watchFile-webpack-plugin', function(){
+	this.timeout(50000);
 	it('Change rt file content, webDevServer should hash code should change.', function(done){
 		fs.writeFileSync(path.join(__dirname, "/fixtures/components/local-hello-world.rt"), "<div><h3>Hello World From Local...!{this.props.name}</h3></div>");
 		var compiler = webpack(config);
